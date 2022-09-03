@@ -6,7 +6,7 @@ import defaultsLoader from './defaults';
 import cronJobsLoader from './cronJobs';
 import SocketIO from './socket';
 
-import httpServer from '../server';
+import httpServer from '..';
 
 export default async (expressApp: Application) => {
   await winstonLoader();
